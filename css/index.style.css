@@ -1,36 +1,45 @@
-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    border: 1px solid pink;
-    list-style-type: none;
-}
-
 .container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 20% auto;
     grid-template-areas: 
         "hd"
         "nv"
         "bl"
         "ft";
-    margin: 0px 10%;
 }
 
-h2 {
+h1 {
+    grid-area: hd;
     display: flex;
     justify-content: center;
 }
 
+nav ul {
+    grid-area: nv;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid pink; */
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 15%;
+}
+
+h2 {
+    text-align: center;
+}
+
 .blog-post {
-    border: 1px solid orange;
+    grid-area: bl;
+    min-height: 150px;
+    /* border: 1px solid orange; */
 }
 
 footer {
-    border: 1px solid lightblue;
+    grid-area: ft;
+    /* border: 1px solid lightblue; */
 }
