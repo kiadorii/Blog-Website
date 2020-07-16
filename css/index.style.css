@@ -1,24 +1,36 @@
-.container {
+body {
     display: grid;
+    background-color: #f9f3f2;
+}
+
+.container {
     grid-template-columns: 1fr;
     grid-template-areas: 
         "hd"
         "nv"
         "bl"
         "ft";
+    background-color: white;
+    width: 80%;
+    justify-self: center;
+    padding: 0px 15px;
 }
 
-h1 {
-    grid-area: hd;
+header {
+    background-color: white;
+    padding: 0px 20px;
+    height: 90vh;
+}
+
+.main {
     display: flex;
-    justify-content: center;
+    grid-area: hd;
 }
 
 nav ul {
     grid-area: nv;
     display: flex;
     justify-content: space-evenly;
-    /* border: 1px solid pink; */
     list-style-type: none;
 }
 
@@ -26,7 +38,6 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px 15%;
 }
 
 h2 {
@@ -36,10 +47,8 @@ h2 {
 .blog-post {
     grid-area: bl;
     min-height: 150px;
-    /* border: 1px solid orange; */
 }
 
 footer {
     grid-area: ft;
-    /* border: 1px solid lightblue; */
 }
