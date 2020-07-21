@@ -1,54 +1,96 @@
 body {
-    display: grid;
-    background-color: #f9f3f2;
+	display: grid;
+	background-color: #f9f3f2;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
 }
 
 .container {
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-        "hd"
-        "nv"
-        "bl"
-        "ft";
-    background-color: white;
-    width: 80%;
-    justify-self: center;
-    padding: 0px 15px;
+	grid-template-columns: 1fr;
+	grid-template-areas:
+		'hd'
+		'nv'
+		'bl'
+		'ft';
+	background-color: white;
+	width: 80%;
+	justify-self: center;
+	padding: 0px 15px;
+	box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.5);
 }
 
 header {
-    background-color: white;
-    padding: 0px 20px;
-    height: 90vh;
-}
-
-.main {
-    display: flex;
-    grid-area: hd;
+	background-color: white;
+	padding: 0px 20px;
+	height: 90vh;
 }
 
 nav ul {
-    grid-area: nv;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+	grid-area: nv;
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	padding: 20px 0px;
+	text-transform: uppercase;
+}
+
+nav ul li:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+}
+
+.landing p {
+	font-style: italic;
+}
+
+.main {
+	display: flex;
+	grid-area: hd;
+	align-items: center;
+	justify-content: center;
+}
+
+.content-image {
+	width: 40%;
+	height: 70vh;
+}
+
+.main-img {
+	background: rgb(232, 230, 229) none repeat scroll 0% 0%;
+	max-width: 100%;
+	min-height: 100%;
+}
+
+.landing {
+	margin-left: 20px;
+	width: 50%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 h2 {
-    text-align: center;
+	text-align: center;
 }
 
 .blog-post {
-    grid-area: bl;
-    min-height: 150px;
+	grid-area: bl;
+	min-height: 150px;
 }
 
 footer {
-    grid-area: ft;
+	grid-area: ft;
 }
