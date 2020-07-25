@@ -54,9 +54,18 @@ a {
 }
 
 h1 {
-	font-family: 'Open Sans', sans-serif;
 	font-weight: lighter;
-	text-transform: uppercase;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 3em;
+	line-height: 40px;
+	color: #5b5b5b;
+}
+
+#em-title {
+	color: rgb(224, 189, 172);
+	z-index: 100;
+	position: absolute;
+	font-size: 1.5em;
 }
 
 .landing p {
@@ -66,7 +75,6 @@ h1 {
 
 .main {
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	height: 80vh;
 }
@@ -81,13 +89,9 @@ h1 {
 }
 
 .landing {
+	padding-top: 10%;
 	margin-left: 20px;
 	width: 50%;
-}
-
-.content {
-	grid-area: ct;
-	justify-content: center;
 }
 
 h2 {
