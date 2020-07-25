@@ -11,8 +11,6 @@ body {
 		'hd hd hd'
 		'nv nv nv'
 		'im ct ct'
-		'im ct ct'
-		'im ct ct'
 		'ft ft ft';
 	background-color: white;
 	width: 80%;
@@ -27,7 +25,7 @@ header {
 	height: 90vh;
 }
 
-nav ul {
+ul {
 	grid-area: nv;
 	display: flex;
 	justify-content: space-evenly;
@@ -36,7 +34,7 @@ nav ul {
 	text-transform: uppercase;
 }
 
-nav ul li:hover {
+ul li:hover {
 	text-decoration: underline;
 	text-decoration-color: #00000081;
 	font-weight: bold;
@@ -51,7 +49,7 @@ a {
 #photographer {
 	display: block;
 	font-style: italic;
-	color: #0000006b;
+	color: #0000001a;
 	font-size: 12px;
 }
 
@@ -87,7 +85,6 @@ h1 {
 
 .content {
 	grid-area: ct;
-	/* flex-direction: column; */
 	justify-content: center;
 }
 
