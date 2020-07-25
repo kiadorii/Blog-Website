@@ -101,6 +101,7 @@ h2 {
 .footer {
 	grid-area: ft;
 	font-size: 10pt;
+	color: #0000008a;
 }
 
 .footer ul {
@@ -108,4 +109,10 @@ h2 {
 	justify-content: space-evenly;
 	list-style-type: none;
 	text-transform: uppercase;
+}
+
+#copyright {
+	text-transform: none;
+	font-weight: bold;
+	color: rgb(224, 189, 172);
 }
