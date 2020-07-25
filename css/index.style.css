@@ -25,7 +25,7 @@ header {
 	height: 90vh;
 }
 
-ul {
+.nav-bar ul {
 	grid-area: nv;
 	display: flex;
 	justify-content: space-evenly;
@@ -34,7 +34,7 @@ ul {
 	text-transform: uppercase;
 }
 
-ul li:hover {
+.nav-bar ul li:hover {
 	text-decoration: underline;
 	text-decoration-color: #00000081;
 	font-weight: bold;
@@ -49,7 +49,7 @@ a {
 #photographer {
 	display: block;
 	font-style: italic;
-	color: #0000001a;
+	color: #0000002f;
 	font-size: 12px;
 }
 
@@ -76,6 +76,7 @@ h1 {
 	background-image: url('./main-content-img.png');
 	background-size: cover;
 	background-position: center;
+	margin-bottom: 20px;
 }
 
 .landing {
@@ -97,6 +98,14 @@ h2 {
 	min-height: 150px;
 }
 
-footer {
+.footer {
 	grid-area: ft;
+	font-size: 10pt;
+}
+
+.footer ul {
+	display: flex;
+	justify-content: space-evenly;
+	list-style-type: none;
+	text-transform: uppercase;
 }
