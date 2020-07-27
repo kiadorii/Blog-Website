@@ -2,5 +2,15 @@
 
 .blog-main {
 	display: inline-block;
-	padding: 0px 20px;
+	text-align: center;
+	padding: 0px 140px;
+	height: 95%;
+}
+
+#blog-header {
+	justify-self: center;
+}
+
+hr {
+	border: 0.5px solid rgba(0, 0, 0, 0.2);
 }

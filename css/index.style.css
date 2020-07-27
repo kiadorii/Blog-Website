@@ -95,15 +95,6 @@ h1 {
 	width: 50%;
 }
 
-h2 {
-	text-align: center;
-}
-
-.blog-post {
-	grid-area: bl;
-	min-height: 150px;
-}
-
 .footer {
 	grid-area: footer;
 	font-size: 10pt;
