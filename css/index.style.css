@@ -6,27 +6,27 @@ body {
 }
 
 .container {
-	grid-template-columns: 1fr;
+	display: grid;
+	grid-template-rows: 100px 80% 100px;
 	grid-template-areas:
-		'hd hd hd'
-		'nv nv nv'
-		'im ct ct'
-		'ft ft ft';
+		'nav'
+		'main'
+		'footer';
 	background-color: white;
 	width: 80%;
 	justify-self: center;
 	padding: 0px 15px;
 	box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.5);
+	min-height: 100vh;
 }
 
 header {
+	grid-area: nav;
 	background-color: white;
 	padding: 0px 20px;
-	height: 90vh;
 }
 
 .nav-bar ul {
-	grid-area: nv;
 	display: flex;
 	justify-content: space-evenly;
 	list-style-type: none;
@@ -44,6 +44,13 @@ header {
 a {
 	text-decoration: none;
 	color: #00000081;
+}
+
+.main {
+	grid-area: main;
+	display: flex;
+	justify-content: center;
+	height: 95%;
 }
 
 #photographer {
@@ -73,12 +80,6 @@ h1 {
 	color: #c6c6c6;
 }
 
-.main {
-	display: flex;
-	justify-content: center;
-	height: 80vh;
-}
-
 .content-image {
 	width: 40%;
 	height: 100%;
@@ -104,10 +105,9 @@ h2 {
 }
 
 .footer {
-	grid-area: ft;
+	grid-area: footer;
 	font-size: 10pt;
 	color: #0000008a;
-	margin-top: 35px;
 }
 
 .footer ul {
@@ -115,6 +115,7 @@ h2 {
 	justify-content: space-evenly;
 	list-style-type: none;
 	text-transform: uppercase;
+	margin-top: 0px;
 }
 
 #copyright {

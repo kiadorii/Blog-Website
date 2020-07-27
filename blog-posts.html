@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <meta charset="utf-8" />
-    <title>Udacity Personal Blog Posts</title>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-    <link rel="stylesheet" href="./css/index.style.css" />
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Udacity Personal Blog Posts</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+        <link rel="stylesheet" href="./css/blog.style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
+    </head>
 
 <body>
     <div class="container">
         <header>
-            <nav>
+            <nav class="nav-bar">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="#posts">Blog</a></li>
+                    <li><a href="./blog-posts.html">Blog</a></li>
                     <li><a href="#footer">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <div class="content" id="posts">
-
+        <div class="blog-main" id="posts">
             <div class="blog-post">
                 <h2>Blog Post 1</h2>
                 <p>
@@ -94,14 +96,20 @@
                 </p>
             </div>
         </div>
+        <footer class="footer">
+            <ul>
+                <li class="ft-dir"><a href="./index.html">Home</a></li>
+                <li class="ft-dir"><a href="#posts">Blog</a></li>
+                <li id="copyright">©kiadorii</li>
+                <li class="ft-dir"><a href="#footer">Contact</a></li>
+                <li id="address">
+                    <address>
+                        1234 Abcdefg
+                        </br>Abc, AB 12345
+                    </address>
+                </li>
+            </ul>
+        </footer>
     </div>
-
-    <footer id="footer">
-        <address>
-            1234 Abcdefg
-            </br>Abc, AB 12345
-        </address>
-    </footer>
 </body>
-
 </html>
