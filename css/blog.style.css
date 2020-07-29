@@ -1,7 +1,10 @@
 @import './index.style.css';
+h2 {
+	display: block;
+}
 
 .blog-main {
-	display: inline-block;
+	/* display: inline-block; */
 	text-align: center;
 	padding: 0px 140px;
 	height: 95%;
@@ -16,10 +19,15 @@ hr {
 }
 
 .blog-cards {
-	padding: 24px 0px;
-	border: solid black;
+	margin: 24px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
 }
 
 #personal {
 	color: rgb(224, 189, 172);
+}
+
+.blog-content {
+	display: flex;
 }
