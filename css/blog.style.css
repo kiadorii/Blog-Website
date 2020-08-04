@@ -76,4 +76,8 @@ article {
 	.blog-cards {
 		width: auto;
 	}
+
+	#placeholder {
+		width: 350px;
+	}
 }
