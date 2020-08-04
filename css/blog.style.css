@@ -46,3 +46,13 @@ article {
 	font-size: x-small;
 	margin-bottom: 18px;
 }
+
+.blog-post {
+	text-align: left;
+}
+
+#placeholder {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
