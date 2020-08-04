@@ -117,7 +117,7 @@ h1 {
 	color: rgb(224, 189, 172);
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 500px) {
 	.container {
 		display: flex;
 		flex-direction: column;
