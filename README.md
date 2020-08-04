@@ -8,3 +8,4 @@ blog-post-pic-1: https://www.pexels.com/@valeriya
 blog-post-pic-2: https://www.pexels.com/@disguise-truth/
 
 blog-post-pic-3: https://www.pexels.com/@wildlittlethingsphoto
+
