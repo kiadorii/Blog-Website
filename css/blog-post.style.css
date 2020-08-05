@@ -1,0 +1,36 @@
+@import "./index.style.css";
+@import "./index.style.css";
+
+#post-header {
+  text-align: center;
+}
+
+#date {
+  font-size: x-small;
+  margin-bottom: 18px;
+}
+
+.blog-main {
+  margin: 0px 40px;
+}
+
+.blog-post {
+  text-align: left;
+}
+
+#placeholder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .blog-cards {
+    width: auto;
+  }
+
+  #placeholder {
+    width: 300px;
+    height: auto;
+  }
+}

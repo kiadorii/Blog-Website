@@ -85,7 +85,7 @@ h1 {
 .content-image {
   width: 40%;
   height: 570px;
-  background-image: url("./main-content-img.png");
+  background-image: url("../images/main-content-img.png");
   background-size: cover;
   background-position: center;
   display: block;
