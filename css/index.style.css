@@ -1,144 +1,144 @@
 body {
-	display: grid;
-	background-color: #f9f3f2;
-	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
-	height: 100%;
-	width: 100%;
-	margin: 0;
+  display: grid;
+  background-color: #f9f3f2;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .container {
-	display: grid;
-	grid-auto-rows: 100px auto 75px;
-	grid-template-areas:
-		'nav'
-		'main'
-		'footer';
-	background-color: white;
-	width: 80%;
-	justify-self: center;
-	padding: 0 15px;
-	box-shadow: 0 0 44px -11px rgba(0, 0, 0, 0.5);
-	min-height: 100vh;
+  display: grid;
+  grid-auto-rows: 100px auto 75px;
+  grid-template-areas:
+    "nav"
+    "main"
+    "footer";
+  background-color: white;
+  width: 80%;
+  justify-self: center;
+  padding: 0 15px;
+  box-shadow: 0 0 44px -11px rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
 }
 
 header {
-	grid-area: nav;
-	background-color: white;
-	padding: 0 20px;
+  grid-area: nav;
+  background-color: white;
+  padding: 0 20px;
 }
 
 .nav-bar ul {
-	display: flex;
-	justify-content: space-evenly;
-	list-style-type: none;
-	padding: 20px 0;
-	text-transform: uppercase;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 20px 0;
+  text-transform: uppercase;
 }
 
 .nav-bar ul li:hover {
-	text-decoration: underline;
-	text-decoration-color: #00000081;
-	font-weight: bold;
-	font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: #595959;
+  font-weight: bold;
+  font-style: italic;
 }
 
 a {
-	text-decoration: none;
-	color: #00000081;
+  text-decoration: none;
+  color: #595959;
 }
 
 .main {
-	grid-area: main;
-	display: flex;
-	justify-content: center;
+  grid-area: main;
+  display: flex;
+  justify-content: center;
 }
 
-#photographer {
-	display: block;
-	font-style: italic;
-	color: #0000002f;
-	font-size: 12px;
+.photographer {
+  display: block;
+  font-style: italic;
+  color: #757575;
+  font-size: 12px;
 }
 
 h1 {
-	font-weight: lighter;
-	font-family: 'Cormorant Garamond', serif;
-	font-size: 3em;
-	line-height: 40px;
-	color: #5b5b5b;
+  font-weight: lighter;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3em;
+  line-height: 40px;
+  color: #5b5b5b;
 }
 
 #em-title {
-	color: rgb(224, 189, 172);
-	z-index: 100;
-	position: absolute;
-	font-size: 1.5em;
+  color: rgb(224, 189, 172);
+  z-index: 100;
+  position: absolute;
+  font-size: 1.5em;
 }
 
 .landing p {
-	font-style: italic;
-	color: #c6c6c6;
+  font-style: italic;
+  color: #595959;
 }
 
 .content-image {
-	width: 40%;
-	height: 570px;
-	background-image: url('./main-content-img.png');
-	background-size: cover;
-	background-position: center;
-	display: block;
+  width: 40%;
+  height: 570px;
+  background-image: url("./main-content-img.png");
+  background-size: cover;
+  background-position: center;
+  display: block;
 }
 
 .landing {
-	padding-top: 10%;
-	margin-left: 20px;
-	width: 50%;
+  padding-top: 10%;
+  margin-left: 20px;
+  width: 50%;
 }
 
 .footer {
-	grid-area: footer;
-	font-size: 10pt;
-	color: #0000008a;
+  grid-area: footer;
+  font-size: 10pt;
+  color: #0000008a;
 }
 
 .footer ul {
-	display: flex;
-	justify-content: space-evenly;
-	list-style-type: none;
-	text-transform: uppercase;
-	padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
 
 #copyright {
-	text-transform: none;
-	font-weight: bold;
-	color: rgb(224, 189, 172);
+  text-transform: none;
+  font-weight: bold;
+  color: rgb(224, 189, 172);
 }
 
 /* Media Query */
 @media only screen and (max-width: 500px) {
-	.container {
-		display: flex;
-		flex-direction: column;
-	}
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 
-	.main {
-		display: block;
-	}
+  .main {
+    display: block;
+  }
 
-	.content-image {
-		height: 200px;
-		width: auto;
-	}
+  .content-image {
+    height: 200px;
+    width: auto;
+  }
 
-	#title {
-		font-size: 2em;
-	}
+  #title {
+    font-size: 2em;
+  }
 
-	.landing {
-		padding-right: 20px;
-		width: inherit;
-	}
+  .landing {
+    padding-right: 20px;
+    width: inherit;
+  }
 }
