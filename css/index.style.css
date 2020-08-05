@@ -18,22 +18,22 @@ body {
 	background-color: white;
 	width: 80%;
 	justify-self: center;
-	padding: 0px 15px;
-	box-shadow: 0px 0px 44px -11px rgba(0, 0, 0, 0.5);
+	padding: 0 15px;
+	box-shadow: 0 0 44px -11px rgba(0, 0, 0, 0.5);
 	min-height: 100vh;
 }
 
 header {
 	grid-area: nav;
 	background-color: white;
-	padding: 0px 20px;
+	padding: 0 20px;
 }
 
 .nav-bar ul {
 	display: flex;
 	justify-content: space-evenly;
 	list-style-type: none;
-	padding: 20px 0px;
+	padding: 20px 0;
 	text-transform: uppercase;
 }
 
@@ -117,6 +117,7 @@ h1 {
 	color: rgb(224, 189, 172);
 }
 
+/* Media Query */
 @media only screen and (max-width: 500px) {
 	.container {
 		display: flex;

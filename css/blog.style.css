@@ -5,7 +5,7 @@ h2 {
 
 .blog-main {
 	text-align: center;
-	padding: 0px 140px;
+	padding: 0 140px;
 	height: 95%;
 }
 
@@ -19,7 +19,7 @@ hr {
 
 .blog-cards {
 	padding: 10px 20px;
-	margin: 24px 0px;
+	margin: 24px 0;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
 }
