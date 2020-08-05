@@ -2,20 +2,24 @@
 
 ![Blog Website Capture](./images/blog-website-capture.png)
 
-About:
+**About**:
 
-The purpose of this project was to solidify the foundations of my HTML and CSS skills. Focus was on CSS Grid, CSS Flex, and Accessibility.
+_The purpose of this project was to solidify the foundations of my HTML and CSS skills. Focus was on CSS Grid, CSS Flex, and Accessibility._
 
-Below are the inspirations I used to model after this project.
+Below are the inspirations I used this project to model after along with images with their corresponding photographers.
 
-Page: https://dribbble.com/shots/3830535-Minimal-Website-Concept-Free-Sketch-7
+**Inspiration:**
 
-Footer: https://www.canva.com/learn/footer-design/
+> Main Page: https://dribbble.com/shots/3830535-Minimal-Website-Concept-Free-Sketch-7
+>
+> Footer: https://www.canva.com/learn/footer-design/
 
-Images used:
+**Images:**
 
-blog-post-pic-1: https://www.pexels.com/@valeriya
+- Main Pic: https://www.pexels.com/@emilyhopper
 
-blog-post-pic-2: https://www.pexels.com/@disguise-truth/
+- Blog Pic #1: https://www.pexels.com/@valeriya
 
-blog-post-pic-3: https://www.pexels.com/@wildlittlethingsphoto
+- Blog Pic #2: https://www.pexels.com/@disguise-truth/
+
+- Blog Pic #3: https://www.pexels.com/@wildlittlethingsphoto
