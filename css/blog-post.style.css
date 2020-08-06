@@ -24,6 +24,13 @@
   margin-right: auto;
 }
 
+strong {
+  font-weight: bold;
+}
+
+u {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 500px) {
   .blog-cards {
     width: auto;
