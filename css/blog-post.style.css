@@ -49,7 +49,7 @@ blockquote {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .blog-main h1 {
     font-size: 2em;
   }
