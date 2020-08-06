@@ -31,6 +31,12 @@ strong {
 u {
   text-decoration: underline;
 }
+
+blockquote {
+  font-style: italic;
+  color: #444444;
+}
+
 @media only screen and (max-width: 500px) {
   .blog-cards {
     width: auto;

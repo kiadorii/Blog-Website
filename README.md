@@ -23,3 +23,7 @@ Below are the inspirations I used this project to model after along with images 
 - Blog Pic #2: https://www.pexels.com/@disguise-truth/
 
 - Blog Pic #3: https://www.pexels.com/@wildlittlethingsphoto
+
+**Social Media Icons**:
+
+- All icons: https://www.flaticon.com/packs/social-media-91
