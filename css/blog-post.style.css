@@ -36,14 +36,36 @@ blockquote {
   font-style: italic;
   color: #444444;
 }
-
-@media only screen and (max-width: 500px) {
+/* Media Query */
+@media only screen and (max-width: 1000px) {
   .blog-cards {
     width: auto;
   }
 
   #placeholder {
-    width: 300px;
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .blog-main h1 {
+    font-size: 2em;
+  }
+
+  .blog-post p {
+    font-size: smaller;
+  }
+
+  #placeholder {
+    width: 250px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #placeholder {
+    width: 200px;
     height: auto;
   }
 }
