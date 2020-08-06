@@ -48,17 +48,27 @@ button {
 }
 
 /* Media Query */
-@media only screen and (max-width: 500px) {
-  .blog-main {
-    padding: 0;
+@media only screen and (max-width: 1000px) {
+  article {
+    margin-top: 20px;
   }
 
-  #blog-header {
-    font-size: 2em;
+  .blog-main {
+    padding: 0;
   }
 
   .blog-content {
     display: flex;
     flex-direction: column;
+  }
+
+  button {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #blog-header {
+    font-size: 2em;
   }
 }
